@@ -34,7 +34,7 @@ namespace lab3_Testing.Steps.Part1
         [Then(@"the booking should be successfully deleted")]
         public void ThenTheBookingShouldBeSuccessfullyDeleted()
         {
-            Assert.That(response.StatusCode, Is.EqualTo(HttpStatusCode.Created));
+            Assert.That(response.StatusCode, Is.EqualTo(HttpStatusCode.OK));
         }
     }
 }
